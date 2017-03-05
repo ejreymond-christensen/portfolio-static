@@ -1,0 +1,72 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/*header styles*/
+
+.header-name {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-sub {
+  text-align: right;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 100%;
+  margin-top: 5px;
+}
+
+/* hr styling code used from CSS-Tricks https://css-tricks.com/examples/hrs/*/
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 1), rgba(0, 0, 0, .25));
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*project content styles*/
+
+.header-work {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-project {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*footer styles*/
+
+footer {
+  text-align: center;
+}
+
+/*responsive tweeks via media queries*/
+
+@media screen and (max-width:1200px) and (min-width:992px){
+  .header-project {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:991px) and (min-width:630px){
+  .project-responsive {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .description{
+    max-width: 400px;
+  }
+  .header-project{
+    max-width: 400px;
+  }
+}
