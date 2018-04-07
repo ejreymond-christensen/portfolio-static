@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio Project Nano-Degree
+simple static portfolio site using HTML CSS and bootstrap.
